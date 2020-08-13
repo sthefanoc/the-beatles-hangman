@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/the-beatles-hangman/static/css/main.a029e769.chunk.css",
+    "main.js": "/the-beatles-hangman/static/js/main.7c6cf616.chunk.js",
+    "main.js.map": "/the-beatles-hangman/static/js/main.7c6cf616.chunk.js.map",
+    "runtime-main.js": "/the-beatles-hangman/static/js/runtime-main.9e236aa2.js",
+    "runtime-main.js.map": "/the-beatles-hangman/static/js/runtime-main.9e236aa2.js.map",
+    "static/js/2.d85a0213.chunk.js": "/the-beatles-hangman/static/js/2.d85a0213.chunk.js",
+    "static/js/2.d85a0213.chunk.js.map": "/the-beatles-hangman/static/js/2.d85a0213.chunk.js.map",
+    "index.html": "/the-beatles-hangman/index.html",
+    "precache-manifest.747850bd0d649f3012377bc20c6aeb29.js": "/the-beatles-hangman/precache-manifest.747850bd0d649f3012377bc20c6aeb29.js",
+    "service-worker.js": "/the-beatles-hangman/service-worker.js",
+    "static/css/main.a029e769.chunk.css.map": "/the-beatles-hangman/static/css/main.a029e769.chunk.css.map",
+    "static/js/2.d85a0213.chunk.js.LICENSE.txt": "/the-beatles-hangman/static/js/2.d85a0213.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/the-beatles-hangman/static/media/abbey-road-bg.6dea6c76.png",
+    "static/media/abbey-road-bg.jpg": "/the-beatles-hangman/static/media/abbey-road-bg.d9bfd5fa.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9e236aa2.js",
+    "static/js/2.d85a0213.chunk.js",
+    "static/css/main.a029e769.chunk.css",
+    "static/js/main.7c6cf616.chunk.js"
+  ]
+}
