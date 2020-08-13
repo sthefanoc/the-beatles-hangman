@@ -4,26 +4,40 @@
 
 body, #root {
   background-color: #34495e;
+  background-image: url('./assets/abbey-road-bg.png');
   color: #fff;
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 80vh;
+  height: 100vh;
   margin: 0;
   overflow: hidden;
 }
 
-h1 {
+
+.header {
   margin: 20px 0 0;
+  padding-left: 5%;
+  padding-right: 5%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+h1{
+  max-width: 80%;
+  text-align: center;
 }
 
 .game-container {
   padding: 20px 30px;
   position: relative;
   margin: auto;
-  height: 350px;
-  width: 450px;
+  height: 650px;
+  width: 500px;
+  max-width: 100%;
 }
 
 .figure-container {
@@ -53,17 +67,40 @@ h1 {
 .wrong-letters-container span {
   font-size: 24px;
 }
+.words-container{
+  display: flex;
+  /* display: inline-block; */
+  flex-direction: row;
+  justify-content: space-around;
+  /* justify-items: stretch; */
+  width: 100%;
+  flex-wrap: wrap;
+  bottom: 10px;
+  left: 50%;
+  /* height: 200px; */
+  /* transform: translateX(-50%); */
+  padding-left: 30%;
+  
 
+}
 .word {
   display: flex;
-  position: absolute;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-left: 10px;
+  /* display: flex; */
+  /* position: absolute; */
   bottom: 10px;
   left: 50%;
   transform: translateX(-50%);
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
+
 .letter {
-  border-bottom: 3px solid #2980b9;
+  /* border-bottom: 3px solid #2980b9; */
+  border-bottom: 3px solid #ededed;
   display: inline-flex;
   font-size: 30px;
   align-items: center;
@@ -71,6 +108,8 @@ h1 {
   margin: 0 3px;
   height: 50px;
   width: 20px;
+  /* padding-left: 2px;
+  padding-right: 2px; */
 }
 
 .popup-container {
@@ -127,4 +166,26 @@ h1 {
 
 .notification-container.show {
   transform: translateY(-50px);
+}
+.credits{
+  color: black;
+  background-color: #ededed;
+  width: 100%;
+  text-align: center;
+  font-style: italic;
+  font-size: 15px;
+}
+@media only screen and (max-width: 650px) {
+  .header{
+    margin-top: 0;
+  }
+  .game-container {
+    padding: 20px 30px;
+    position: relative;
+    margin: auto;
+    height: 90vh;
+    width: 100%;
+    
+  }
+  .words-container{}
 }

@@ -7,11 +7,11 @@ const Popup = ({correctLetters, wrongLetters, selectedWord, setPlayable, playAga
   let playable = true;
 
   if( checkWin(correctLetters, wrongLetters, selectedWord) === 'win' ) {
-    finalMessage = 'Congratulations! You won! 😃';
+    finalMessage = 'You are a Beatles expert! You won! 😃';
     playable = false;
   } else if( checkWin(correctLetters, wrongLetters, selectedWord) === 'lose' ) {
-    finalMessage = 'Unfortunately you lost. 😕';
-    finalMessageRevealWord = `...the word was: ${selectedWord}`;
+    finalMessage = 'Oh no. You probably need to listen to more songs. 😕';
+    finalMessageRevealWord = `...the music was: ${selectedWord}`;
     playable = false;
   }
 

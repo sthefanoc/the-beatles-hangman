@@ -6,8 +6,9 @@ export function showNotification(setter) {
 }
 
 export function checkWin(correct, wrong, word) {
+  
+  word = word.replace(/ /g,'')
   let status = 'win';
-
   // Check for win
   word.split('').forEach(letter => {
     if(!correct.includes(letter)){
